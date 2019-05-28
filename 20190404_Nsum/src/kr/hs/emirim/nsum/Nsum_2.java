@@ -8,6 +8,10 @@ public class Nsum_2 {
 		Scanner sc=new Scanner(System.in);
 		String number=sc.nextLine();
 		int length=number.length();
+		Nsum_2(number, length);
+	}
+
+	private static void Nsum_2(String number, int length) {
 		int sum=0;
 		for(int i=0; i<length; i++) {
 			char n = number.charAt(i);

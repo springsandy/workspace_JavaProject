@@ -10,7 +10,6 @@ import javax.swing.JPanel;
 public class GUITest6_RockPaperSiser {
 	 private static final String[] filename = {"src/images/scissors.png","src/images/paper.png", "src/images/rock.png"};
 	
-	 
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("가위바위보 게임");
 		JPanel panel = new JPanel();
